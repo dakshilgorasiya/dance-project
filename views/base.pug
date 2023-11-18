@@ -1,0 +1,21 @@
+doctype html 
+html
+  head
+    title Dakshil Dance Acedemy
+    block style 
+        style 
+            include ../static/style.css 
+  body
+    block nav 
+        nav#navbar
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class info]
+                li #[a(href="/contact") Contact Us]
+    block content
+            | Place content here
+    block footer
+        footer#footer 
+            | Copywrite © 2023 | All rights reserver

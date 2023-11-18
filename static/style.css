@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Mono&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#navbar {
+    background-color: #c30000;
+    padding: 18px 14px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 13px 20px;
+    font-size: 20px;
+}
+
+#navbar li a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+
+#footer {
+    height: 43px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+
+
+@media only screen and (max-device-Width:1500px) and (min-device-Width: 900px) {
+    #navbar li a {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-device-Width:900px) and (min-device-Width:400px) {
+    #navbar li a {
+        font-size: 35px;
+        margin: 12px;
+        padding: 10px 12px;
+    }
+    #footer{
+        height: 75px;
+        font-size: 33px;
+        height: 75px;
+    }
+}
+
+@media only screen and (max-device-Width:400px) and (min-device-Width: 0px) {
+    #navbar li a {
+        font-size: 35px;
+        margin: 5px;
+    }
+    #footer{
+        font-size: 45px;
+        height: 95px;
+    }
+}

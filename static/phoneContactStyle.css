@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Mono&family=Ubuntu:wght@300&display=swap');
+
+@media only screen and (max-device-Width:900px) and (min-device-Width:400px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Bree Serif', serif;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .container {
+        height: 720px;
+    }
+
+    .container h1 {
+        font-size: 100px;
+    }
+
+    #form {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #form form {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    #form input {
+        width: 90%;
+        margin: 17px;
+        font-size: 33px;
+        border-radius: 50px;
+    }
+
+    #form .btn {
+        border-radius: 70px;
+        font-size: 33px;
+        width: 216px;
+    }
+}

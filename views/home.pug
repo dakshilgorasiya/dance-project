@@ -1,0 +1,37 @@
+extends base.pug
+
+block content
+
+    style 
+        include ../static/homestyle.css
+        include ../static/tabHomeStyle.css
+        include ../static/phoneHomeStyle.css
+        include ../static/smallPhoneHomeStyle.css
+
+    section#introsection
+        div Welcome to dakshil's dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionsection 
+        h2 Our Mission
+        div#cardContainer
+            div.card
+                h3 Dance Perfection
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque animi ipsam quasi dicta enim numquam quisquam rem quaerat. Deleniti voluptatibus omnis quis mollitia rem eum eaque suscipit aliquam modi repellat?
+            div.card
+                h3 Dance the way you like
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsum voluptatum commodi explicabo quibusdam. Expedita unde, ipsam, sit asperiores esse iste voluptatibus nostrum perferendis. Lorem, ipsum dolor.
+            div.card
+                h3 Expert Teaching
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum cum id eveniet maxime maiores accusamus quas aperiam. Ut odio iste quos quia sequi. Tempore repellendus perspiciatis quod, architecto obcaecati reprehenderit?
+    section#sponsorsection
+        h2 Our sponsors
+        div#sponsors
+            div.sponsorbox
+                |sponsor1
+            div.sponsorbox
+                |sponsor2
+            div.sponsorbox
+                |sponsor3
+            div.sponsorbox
+                |sponsor4

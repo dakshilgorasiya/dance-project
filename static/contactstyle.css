@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Mono&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #ff9999;
+    height: 625px;
+    padding-top: 30px;
+}
+
+.container h1{
+    font-size: 50px;
+}
+
+#form {
+    width: 749px;
+    margin-top: 10px;
+}
+
+.inputform {
+    display: block;
+    font-size: 16px;
+    margin: 12px;
+    padding: 10px;
+    padding-left: 27px;
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: none;
+    font-size: 18px;
+    background-color: #ffbdca;
+}
+
+#btndiv {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 11px;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin-top: 10px;
+    background-color: #ffbdca;
+    outline: none;
+    width: 120px;
+    cursor:  pointer;
+}
+
+.btn:hover{
+    background-color: red;
+    font-weight: bold;
+}

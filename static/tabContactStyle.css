@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Mono&family=Ubuntu:wght@300&display=swap');
+
+@media only screen and (max-device-Width:1500px) and (min-device-Width: 900px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Bree Serif', serif;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Ubuntu', sans-serif;
+    }
+}

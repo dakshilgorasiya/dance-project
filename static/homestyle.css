@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Mono&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#introsection {
+    height: 300px;
+    color: white;
+    background-color: #f1232396;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+#introsection div.small {
+    font-size: 30px;
+    padding: 5px;
+}
+
+#missionsection {
+    height: 300px;
+    background-color: #ffa9a98a;
+    display: block;
+}
+
+#missionsection h2 {
+    text-align: center;
+    padding-top: 12px;
+}
+
+#cardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: 3px solid #a50000;
+    border-radius: 10px;
+    width: 19%;
+    margin: 23px 22px;
+    height: 200px;
+    display: inline-block;
+    background-color: #ffacac;
+}
+
+.card h3 {
+    text-align: center;
+    margin: 12px;
+}
+
+.card p {
+    justify-content: center;
+    width: 100%;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+#sponsorsection {
+    height: 300px;
+    background-color: #ffafaf;
+}
+
+#sponsorsection h2 {
+    text-align: center;
+    padding-top: 12px;
+}
+
+#sponsorsection .sponsorbox {
+    width: 21%;
+    border: 2px solid red;
+    display: inline-block;
+    margin: 16px 30px;
+    height: 215px;
+    background-color: #ff8484;
+    text-align: center;
+    padding: 12px;
+}
